@@ -39,7 +39,8 @@ const styles = StyleSheet.create({
     hidden:{
       height:200,
       width: 600,
-      backgroundColor:'green'
+      backgroundColor:'green',
+      
     }})
 
  
@@ -67,7 +68,6 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       
-        // <ImageBackground source={require('../assets/images/splash.png')} style={{height: '100%'}} style={{paddingTop: 300}}>
         
 <View style={styles.container}>
 <TouchableOpacity onPress={ () => this.expandArticle()}>
